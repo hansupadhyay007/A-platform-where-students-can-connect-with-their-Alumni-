@@ -3,6 +3,8 @@ Project Leader: Hans Upadhyay
 Team Members: Subhranshu Sekhar Choudhury, Soumya Prakash, Hans Upadhyay
 Contact Details: hansupadhyay755@gmail.com, Phone : 9439423367
 
+📁 Google Drive ( Tutorial Video, Nodejs.exe, git.exe ) : https://drive.google.com/drive/folders/1Otp3t1Fc74q6uMwhpPzGOtHc06WIhdKz?usp=share_link
+
 
 ⚠ Required Packages:
 ---------------------------------------------------------------
