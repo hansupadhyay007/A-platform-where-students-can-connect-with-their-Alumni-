@@ -1,0 +1,573 @@
+.main {
+  background-color: #ececec;
+  height: 100vh;
+}
+
+.searchBox{
+  text-align: center;
+  
+}
+
+.reward_points{
+  color: red;
+  background-color: gold;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.alumni_videos {
+  display: inline-block;
+  width: 400px;
+  margin: 20px;
+  border-radius: 23px;
+}
+
+.meet_schedule {
+  text-align: right;
+}
+
+.video_upload_btn {
+  text-decoration: none;
+  color: white;
+  background-color: #1eb2a6;
+  padding: 15px;
+  font-size: larger;
+  border-radius: 23px;
+  margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* user profile in alumni page */
+
+
+.userCard {
+  background-color: white;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 20px;
+  border-radius: 23px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profile_image img {
+  margin: 20px;
+  height: 100px;
+  border-radius: 50%;
+  height: 90px;
+  width: 80px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.name {
+  font-weight: bolder;
+}
+
+.college_details {
+  color: gray;
+  font-weight: bold;
+}
+
+.button_container {
+  margin: 20px;
+}
+
+
+
+.connect_button {
+  text-decoration: none;
+  border-radius: 23px;
+  background-color: #2192ff;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.page_title{
+  margin-left: 20px;
+  color: black;
+  
+}
+
+.interaction_name{
+  background-color: #b21e1e;
+  display: table;
+  border-radius: 23px;
+  color: white;
+  font-size: smaller;
+  padding: 3px;
+  margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.message_box {
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.message_card {
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 23px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* border: 3px solid black; */
+}
+
+.alumni_message {
+  color: black;
+  /* font-weight: bold; */
+  text-align: right;
+}
+
+.mTime {
+  color: gray;
+  font-size: small;
+}
+
+.user_message {
+  /* font-weight: bold; */
+  background-color: rgb(98, 246, 96);
+}
+
+.message_input_field {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.message_input_field input {
+  width: 80%;
+  height: 53px;
+  margin: 5px;
+  font-size: larger;
+  text-align: center
+}
+
+/* Hans bhai */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f8f8;
+}
+/*------------global-----------*/
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #1eb2a6;
+  transition: 0.5s;
+}
+.icon:hover {
+  cursor: pointer;
+  background-color: #1eb2a6;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.row {
+  width: 50%;
+}
+button {
+  padding: 17px 30px;
+  background-color: #fff;
+  color: #1eb2a6;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
+}
+button i {
+  margin-left: 20px;
+}
+button:hover {
+  box-shadow: none;
+}
+.primary-btn {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+
+/*------------global-----------*/
+#heading {
+  text-align: center;
+  padding: 40px 0;
+}
+#heading h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #1eb2a6;
+  text-transform: uppercase;
+}
+#heading h1 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+p {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.back {
+  /* background-image: url("../public/images/back.webp"); */
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+.back h1 {
+  font-size: 100px;
+  font-weight: 400;
+}
+.back h2 {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.margin {
+  margin-top: 25.3%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.flex {
+  display: flex;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.outline-btn {
+  margin: 0;
+  box-shadow: none;
+  border: 2px solid #1eb2a6;
+  width: 100%;
+  transition: 0.5s;
+}
+.outline-btn:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+.padding {
+  padding: 80px 0;
+}
+.shadow {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .grid2,
+  .grid3,
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .back {
+    background-position: center;
+    padding-top: 50%;
+    height: 80vh;
+  }
+}
+
+/* Form Style : Subhranshu Choudhury */
+
+.myform{
+  margin: 40px;
+  border: 3px solid #ffffff;
+  /* background-image: url('https://th.bing.com/th/id/OIP.bftHdEEbbfYiPyhiuiVqPwHaD4?pid=ImgDet&rs=1'); */
+  /* background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain; */
+  /* background-position: 0 120px; */
+  /* height: 400px; */
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: inline-block;
+  width: 100%;
+}
+
+
+
+.formParent{
+  width: 80%;
+margin: 20px auto;}
+
+.myform:hover{
+  box-shadow: rgba(89, 226, 77, 0.925) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.formImage{
+  width: 50%;
+  height: 800px;
+  background-color: aqua;
+  border-radius: 5px;
+  display: inline-block;
+  /* image */
+  background-image: url('https://th.bing.com/th/id/R.4ba46feee2e0c09b39e26d33fb77acb5?rik=wLguD8Kjza2BmA&riu=http%3a%2f%2fwww.dynamitenews.com%2fimages%2f2016%2f01%2f10%2fdn-dn-darshan-konark-sun-temple-odisha%2f1452429696_2415975117_97ef345413_o.jpg&ehk=dJlNGEu9Mvbyd3BAI9EvjlMPCEJAtfYHB9F%2bqRSh%2bIA%3d&risl=&pid=ImgRaw&r=0');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  /* background-size: contain; */
+  background-position: -400px 0;
+}
+
+.formComponent{
+  display: inline-block;
+  width: 50%;
+}
+
+.formHeading{
+  text-align: left;
+  padding-left: 60px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.formImage h4{
+  display: table;
+  margin: 80% auto;
+  font-size: 50px;
+  color: white;
+}
+
+.formLabel{
+  padding-left: 60px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.formSpacer{
+  height: 200px;
+  display: inline-block;
+  background-color: red;
+}
+
+.formButton{
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  
+  margin-left:50px;
+}
+
+.formButton button{
+  width: 70%;
+  margin: 10px;
+
+}
+
+
+.formInput{
+  border: none;
+  border-bottom: 2px solid green;
+  width: 70%;
+  /* margin-left: 50px; */
+}
+
+.formInput:focus{
+  outline: none;
+}
+
+/* media query */
+
+@media (max-width: 723px) {
+  .formHeading{
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 654px) {
+  .formHeading{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 593px) {
+  .formHeading{
+    font-size: 25px;
+  }
+
+  .formImage h4{
+    font-size: 40px;
+    margin-top: 300px;
+  }
+}
+
+@media (max-width: 511px) {
+  .formHeading{
+    font-size: 20px;
+  }
+
+  .formInput{
+    width: 60%;
+  }
+
+}
+
+.radio_choice{
+  background-color: #1eb2a6;
+  color: white;
+  margin: 20px;
+  padding: 8px;
+  border-radius: 23px;
+}
+
+.radio_choice input{
+  font-weight: bolder;
+  transform: scale(2);
+  margin: 20px;
+}
+
+.main_heading{
+  color: black;
+}
+
+
+/* CSS BUTTONS */
+.button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(340deg 100% 16%) 0%,
+    hsl(340deg 100% 32%) 8%,
+    hsl(340deg 100% 32%) 92%,
+    hsl(340deg 100% 16%) 100%
+  );
+}
+
+.button-82-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(345deg 100% 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-82-front {
+    font-size: 1.25rem;
+    padding: 12px 42px;
+  }
+}
+
+.button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}

@@ -1,0 +1,41 @@
+.hero #heading h3 {
+  color: #fff;
+}
+.hero #heading {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.sub_text {
+  color: white;
+}
+
+.buttons {
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.button-main {
+  margin: 10px;
+  padding: 20px;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .margin {
+    height: 40vh;
+  }
+  .hero {
+    background-position: right;
+    padding-top: 50%;
+    height: 80vh;
+  }
+  .hero .row {
+    width: 100%;
+  }
+}
